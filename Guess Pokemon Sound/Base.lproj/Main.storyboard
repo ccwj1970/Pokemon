@@ -21,13 +21,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="thc-Kh-cXN">
-                                <rect key="frame" x="16" y="455" width="361" height="360"/>
+                                <rect key="frame" x="16" y="455" width="361" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="6Og-kn-DHW">
-                                        <rect key="frame" x="-1" y="-59" width="147" height="235"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rhydon" translatesAutoresizingMaskIntoConstraints="NO" id="fKO-XR-3bM">
                                         <rect key="frame" x="243" y="6" width="111" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -60,19 +56,15 @@
                                         <rect key="frame" x="140" y="9" width="84" height="92"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpQ-cs-px6">
-                                        <rect key="frame" x="8" y="0.0" width="115" height="121"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lY-jM-oq7">
                                         <rect key="frame" x="123" y="119" width="115" height="121"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FA8-Mq-Xkg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcj-ee-5ip">
                                         <rect key="frame" x="123" y="239" width="115" height="121"/>
@@ -80,6 +72,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nyj-cy-4zi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCp-Bj-bke">
                                         <rect key="frame" x="123" y="0.0" width="115" height="121"/>
@@ -87,6 +82,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T14-Hz-0fv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izi-IR-cQ1">
                                         <rect key="frame" x="238" y="0.0" width="123" height="121"/>
@@ -95,7 +93,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
                                         <connections>
-                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXS-EC-FVg"/>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNY-46-U2L"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Js-Q7-fls">
@@ -104,6 +102,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACT-pe-INj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhb-eH-Lob">
                                         <rect key="frame" x="237" y="239" width="123" height="121"/>
@@ -111,13 +112,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEV-id-FFA">
-                                        <rect key="frame" x="8" y="120" width="115" height="121"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Qp-LA-HdB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adw-re-3W0">
                                         <rect key="frame" x="8" y="239" width="115" height="121"/>
@@ -125,6 +122,19 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lup-Hg-kak"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEV-id-FFA">
+                                        <rect key="frame" x="8" y="120" width="115" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="al8-vc-ajM"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Snorlax" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUw-Yj-1WI">
                                         <rect key="frame" x="16" y="321" width="97" height="34"/>
@@ -180,6 +190,20 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfE-oE-xbe">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="pokemonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JtW-P0-n21"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="NeN-lY-Ach">
+                                        <rect key="frame" x="16" y="6" width="107" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <userDefinedRuntimeAttributes>
@@ -197,13 +221,6 @@
                                     <segment title="CH"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Pokémon by name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BHx-cN-uAO">
-                                <rect key="frame" x="23" y="386" width="222" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.71565913969999995" green="0.22896037289999999" blue="0.1088277061" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="こんにちは、ポケモンを買いたいです！" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j1E-DJ-RQP">
                                 <rect key="frame" x="23" y="267" width="348" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -268,6 +285,13 @@
                                 <rect key="frame" x="-3" y="45" width="393" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pokémon by name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGt-V5-hWh">
+                                <rect key="frame" x="24" y="412" width="204" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.71372550729999995" green="0.22745099660000001" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -276,14 +300,13 @@
                         <outlet property="Bulbasaur" destination="pEV-id-FFA" id="FQD-Tj-Tv1"/>
                         <outlet property="Caterpie" destination="mcj-ee-5ip" id="kf7-7R-67M"/>
                         <outlet property="Charizard" destination="6lY-jM-oq7" id="PpO-YV-zQp"/>
-                        <outlet property="Gengar" destination="UCp-Bj-bke" id="ZvI-HQ-ICq"/>
+                        <outlet property="Gengar" destination="UCp-Bj-bke" id="SRh-Zv-iOc"/>
                         <outlet property="Jigglypuff" destination="2Js-Q7-fls" id="opI-qW-7qf"/>
-                        <outlet property="Pikachu" destination="MpQ-cs-px6" id="D9F-07-FMS"/>
-                        <outlet property="Rhydon" destination="izi-IR-cQ1" id="RzT-5n-wvt"/>
+                        <outlet property="Pikachu" destination="HfE-oE-xbe" id="Tnh-5Q-10c"/>
+                        <outlet property="Rhydon" destination="izi-IR-cQ1" id="Oe2-5I-Mb1"/>
                         <outlet property="Snorlax" destination="Adw-re-3W0" id="i9E-kx-EoL"/>
                         <outlet property="Squirtle" destination="Dhb-eH-Lob" id="cTT-iZ-wHX"/>
                         <outlet property="languageSegment" destination="LaM-so-mVe" id="pwN-3V-GLF"/>
-                        <outlet property="pikachu" destination="6Og-kn-DHW" id="xId-YL-vBF"/>
                         <outlet property="pitchSlider" destination="aHf-Xm-bOJ" id="g4m-Tb-lYT"/>
                         <outlet property="rateSlider" destination="OaD-xa-rus" id="Oci-IV-R9a"/>
                         <outlet property="sayTextField" destination="j1E-DJ-RQP" id="0U6-52-R3E"/>
@@ -304,7 +327,7 @@
         <image name="Gengar" width="560" height="576"/>
         <image name="Header" width="824" height="303"/>
         <image name="Jigglypuff" width="300" height="300"/>
-        <image name="Pikachu" width="627" height="398"/>
+        <image name="Pikachu" width="373" height="395"/>
         <image name="Rhydon" width="630" height="630"/>
         <image name="Snorlax" width="707" height="526"/>
         <image name="Squirtle" width="533" height="468"/>
