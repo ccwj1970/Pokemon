@@ -6,7 +6,7 @@ The Pokémon Translator app provides a seamless experience for users to pronounc
 
 ## Key Features
 
-- **Pronunciation of Pokémon Names:** Users can input the name of a Pokémon, and the app will pronounce it in Japanese, English, and Chinese (Taiwanese).
+- **Pronunciation of Pokémon Names:** Users can input the name of a Pokémon, and the app will pronounce it in Japanese, English, and Chinese (zh-TW).
   
 - **Basic Conversations in Japanese:** The app is equipped to handle basic conversations in Japanese, allowing users to engage in dialogue.
 
